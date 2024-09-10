@@ -1,0 +1,71 @@
+.result {
+  background: #65e892;
+  color: rgb(12, 11, 11);
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #65e892;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+#insert {
+  background: #d5eeff;
+  padding: 10px;
+  border: 2px solid #d5eeff;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+}
+form {
+  padding: 30px;
+}
+body {
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+}
+.all {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  max-width: 700px;
+  text-align: center;
+  background: white;
+  margin: 40px auto;
+  border-radius: 30px;
+  padding: 40px 5px;
+}
+.temperature {
+  display: flex;
+  justify-content: space-between;
+}
+p {
+  position: relative;
+  text-align: left;
+  left: -260px;
+  top: 40px;
+}
+
+h1 {
+  margin: -5px 0px;
+}
+.current-temp {
+  display: block;
+  unicode-bidi: isolate;
+  font-size: 50px;
+  color: #ff347f;
+}
+hr {
+  opacity: 0.1;
+}
+.wind-edit {
+  color: #d59bf6;
+}
